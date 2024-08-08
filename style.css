@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 * {
     box-sizing: content-box;
-    font-family: Roboto, 'Times New Roman';
+    font-family: Roboto, sans-serif;
+    margin: 0;
 }
 
 body {
@@ -69,6 +70,7 @@ body {
 .main-text p {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 24px;
 }
 
 button {
@@ -105,9 +107,12 @@ button {
 .body-content {
     display: flex;
     flex-direction: column;
+    height: 400px;
     background-color: white;
+    justify-content: space-around;
     align-items: center;
     gap: 24px;
+    padding-bottom: 40px;
 }
 
 .body-content h1 {
@@ -117,6 +122,7 @@ button {
 
 .body-content ul {
     margin: 0;
+    padding: 0;
     display: flex;
     list-style: none;
     gap: 12px;
@@ -138,3 +144,35 @@ button {
 }
 
 /* --------------------------------------------------- */
+
+.quotes-content {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes-content ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    max-width: 800px;
+    list-style: none;
+}
+
+.quotes-content li {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+li.autor {
+    align-self: flex-end;
+    padding-right: 40px;
+    font-size: 24px;
+    font-weight: 500;
+}

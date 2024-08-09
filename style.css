@@ -91,10 +91,6 @@ body {
     font-size: 12px;
 }
 
-.main-image a {
-    text-decoration: none;
-    color: white;
-}
 
 .main-image img {
     max-height: 300px;
@@ -228,6 +224,7 @@ li.autor {
 
 .footer {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100px;
@@ -235,4 +232,10 @@ li.autor {
     color: #f9faf8;
     font-size: 18px;
     font-weight: 500;
+}
+
+
+.footer a {
+    text-decoration: none;
+    color: white;
 }

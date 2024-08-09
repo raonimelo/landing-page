@@ -222,3 +222,17 @@ li.autor {
     font-size: 18px;
     font-weight: 400;
 }
+
+/* --------------------------------------------------- */
+
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 500;
+}

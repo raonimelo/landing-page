@@ -73,7 +73,7 @@ body {
     margin-bottom: 24px;
 }
 
-button {
+.main-content button {
     background-color: #3882f6;
     border: none;
     border-radius: 10px;
@@ -175,4 +175,50 @@ li.autor {
     padding-right: 40px;
     font-size: 24px;
     font-weight: 500;
+}
+
+/* --------------------------------------------------- */
+
+.singup-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.singup-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45%;
+    width: 80%;
+    background-color: #3882f6;
+    border-radius: 6px;
+    flex-wrap: wrap;
+}
+
+.singup-content button {
+    display: flex;
+    background-color: #3882f6;
+    border: 3px solid white;
+    border-radius: 10px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+.singup-box ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    padding: 0;
+    font-size: 28px;
+    color: #f9faf8;
+}
+
+.singup-box li:nth-of-type(2n) {
+    font-size: 18px;
+    font-weight: 400;
 }
